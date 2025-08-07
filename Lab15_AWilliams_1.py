@@ -1,14 +1,16 @@
 """
-Author: Ambrea Williams
-Date: 05/01/2024
-Title: Graphing Unemployment Rate in Ohio
+Ambrea Williams
+
+Date: 08/05/2025
+
+Unit 15: Graphing Unemployment Rate in Ohio
+
 Description: Reads data about Ohio's unemployment rates from 1976 to 2022 using matplotlib.
-Unit 15: Lab 16
 """
 
 from pathlib import Path
 import csv
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt #ignore=import-error # type: ignore
 from datetime import datetime
 
 """Loads in csv data from the specific file path using pathlib"""
